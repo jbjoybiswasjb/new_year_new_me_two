@@ -19,9 +19,9 @@ body {
 =========================================================================================
 */
 header {
-    background-image: url("../images/banner/banner1.png");
+    background-image: url("../images/banner/banner2.png");
     background-repeat: no-repeat;
-    background-position: 25% 0;
+    background-position: 10% 0;
     background-size: cover;
 }
 
