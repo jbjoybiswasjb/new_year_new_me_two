@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+.new_year_common_mergin {
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+/* 
+                                    Header Section.
+=========================================================================================
+*/
+header {
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-position: 25% 0;
+    background-size: cover;
+}
+
+#header_top {
+    padding: 215px 0 165px;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+}
+
+#header_top h1 {
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+    width: 525px;
+}
+
+#header_top p {
+    margin: 25px 0 30px;
+    width: 495px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+    display: inline-block;
+}
+
+#header_top button {
+    border: none;
+    border-radius: 5px;
+    background: #F15B22;
+    padding: 20px 25px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+/* 
+                                    Main Section.
+=========================================================================================
+*/
+
+main {
+    background-color: #FFF;
+}
+
+/* 
+                               Previous failures section.
+=============================================================================
+*/
+.previous_failures_padding {
+    padding: 140px 0;
+}
+
+.previous_failures_flex {
+    display: flex;
+    gap: 105px;
+    align-items: center;
+}
+
+.previous_failures_photo img {
+    width: 400px;
+    height: 500px;
+}
+
+
+/* previous_failures_text */
+.previous_failures_text h3 {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.previous_failures_flex p {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 25px 0 15px;
+}
+
+.previous_failures_text ul {
+    list-style: none;
+}
+
+.previous_failures_text ul li {
+    margin-bottom: 10px;
+}
+
+.previous_failures_text ul li span {
+    font-weight: bold;
+    color: #16D887;
+}
+
+
+
+/* 
+                               My plans section.
+=============================================================================
+*/
+.may_plans_flex {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#may_plans>div h4 {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.may_plans_flex {
+    display: flex;
+    gap: 100px;
+}
+
+.may_plans_flex h5 {
+    margin: 15px 0;
+    color: #151414;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.may_plans_flex p {
+    color: #737272;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+
+/* 
+                               Positive mindset section.
+=============================================================================
+*/
+.positive_mind_text {
+    margin: 135px 0 130px;
+    background-image: url("../images/gradient2.png"), url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, center;
+    padding: 60px 65px;
+}
+
+.positive_mind_text h2 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    width: 60%;
+}
+
+.positive_mind_text button {
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px 35px;
+}
+
+
+
+/* 
+                                    Footer Section.
+=========================================================================================
+*/
+footer {
+    padding: 130px 0;
+    background-color: #151414;
+}
+
+.footer_dflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_left h6 {
+    margin-bottom: 15px;
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer_left p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer_left>p {
+    margin-bottom: 25px;
+    width: 490px;
+}
+
+.footer_for_margin {
+    margin: 25px 0 15px;
+}
+
+.footer_left ul {
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.footer_right {
+    width: 25%;
+}
+
+.footer_right h6 {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.footer_right div {
+    margin-bottom: 15px;
+}
+
+.footer_right input {
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    padding: 20px;
+    color: #fff;
+    background-color: #151414;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer_right button {
+    color: #F15B22;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 35px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
